@@ -1,0 +1,285 @@
+* {
+    font-family: 'Rubik',
+    sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn-outline {
+    background: none;
+    border: 1px solid #19A7C4;
+    color: #19A7C4;
+}
+
+.btn-outline:hover {
+    background: #19A7C4;
+    color: white;
+}
+
+.text-primary {
+    color: #19A7C4 !important;
+}
+
+.btn-primary {
+    background: #19A7C4 !important;
+    border-color: #19A7C4 !important;
+}
+
+.bg-primary {
+    background: #19A7C4 !important;
+}
+
+/*---------------------------------------------- NAVBAR ----------------------------------------------*/
+#navbar {
+    background: #19A7C4 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+    z-index: 999999999;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*---------------------------------------------- HERO SECTION ----------------------------------------------*/
+
+.hero-section {
+    display: block;
+    position: relative;
+    min-height: 45vh;
+    background: #19A7C4;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hero-section .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hero-section .bg-image {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/Bg_01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-card {
+    transform: translateY(-250px);
+    background: white;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.75);
+}
+
+.badge-hello {
+    background: #19a7c4;
+    border: 4px solid #19a7c4;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.badge-hello:before {
+    top: 95%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #19a7c4 !important;
+    margin-left: -13px;
+    border-width: 13px;
+}
+
+.badge-hello:after {
+    top: 95%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #19a7c4 !important;
+    margin-left: -10px;
+    border-width: 10px;
+}
+
+.badge-hello:hover {
+    background: none;
+    border: 4px solid #19a7c4;
+    color: #19a7c4;
+    transition: 0.3s;
+}
+
+.greating {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #19A7C4;
+}
+
+.greating span {
+    font-weight: 300;
+}
+
+.card-social-media {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.card-social-media li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0px 7px 0px 7px;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.card-social-media li:hover {
+    background-color:#2387B5;
+    transition: 0.5s;
+}
+
+.card-social-media li a {
+    color: white;
+    padding: 9px;
+    font-size: 1.3rem;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.divider {
+    width: 100%;
+    height: 4px;
+    max-width: 140px;
+    background-color: #d8dadc;
+    margin-top: 0px;
+}
+
+blockquote {
+    padding: 20px 30px 10px;
+    position: relative;
+}
+
+blockquote:before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 0;
+    content: "\f10d";
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+blockquote p {
+    font-size: 20px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.author {
+    padding: 0px 30px;
+}
+
+
+/*---------------------------------------------- FOOTER ----------------------------------------------*/
+
+footer {
+    background: #19A7C4;
+    padding: 40px 0px;
+    margin: 0px;
+    display: block;
+    display: block;
+    position: relative;
+    min-height: 45vh;
+}
+
+footer .overlay {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+footer .bg-image {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/Bg_01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
+
+footer p {
+    color: white;
+    font-size: 1.0rem;
+}
+
+footer .footer-social-media {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+footer .footer-social-media li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 0px 7px 0px 7px;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+footer .footer-social-media li:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+footer .footer-social-media li:hover a {
+    color: #2387B5;
+    transition: 0.5s;
+}
+
+footer .footer-social-media li a {
+    color: white;
+    padding: 9px;
+    font-size: 1.3rem;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}

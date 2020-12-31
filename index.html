@@ -1,11 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Jose Paredes</title>
+    <link rel="shortcut icon" href="./util/images/favicon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./util/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./util/css/aos.css">
+    <link rel="stylesheet" href="./util/css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Base Project Created</h1>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <img src="./util/images/favicon.svg" width="30px" alt="">
+                <span class="align-middle">JPAREDES</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero-section" id="about_me">
+        <div class="overlay"></div>
+        <div class="bg-image"></div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 profile-card">
+                <div class="row px-3 py-4">
+                    <div class="col-md-4 mt-1">
+                        <img src="./util/images/full-body.JPG" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-8 mt-1">
+
+                        <div class="row justify-content-start my-3">
+                            <div class="col-md-3">
+                                <div class="badge-hello">Hello!</div>
+                            </div>
+                        </div>
+
+                        <h1 class="greating">
+                            <span>I'm</span>
+                            Jose Paredes
+                        </h1>
+                        <p>FullStack Software Developer</p>
+                        <hr>
+
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <strong class="d-inline-block text-muted">Dev Stack: </strong>
+                            </div>
+                            <div class="col-md-9">
+                                <span class="d-inline-block">Laravel + Vue.Js + MYSQL</span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <strong class="d-inline-block text-muted">Address: </strong>
+                            </div>
+                            <div class="col-md-9">
+                                <span class="d-inline-block">San Pedro Sula, Honduras</span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <strong class="d-inline-block text-muted">Email: </strong>
+                            </div>
+                            <div class="col-md-9">
+                                <span class="d-inline-block">josw.paredes1998@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <strong class="d-inline-block text-muted">Phone: </strong>
+                            </div>
+                            <div class="col-md-9">
+                                <span class="d-inline-block">+504 9841-6129</span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <strong class="d-inline-block text-muted">Age: </strong>
+                            </div>
+                            <div class="col-md-9">
+                                <span class="d-inline-block">22</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-12 p-3 rounded-bottom" style="background: #19A7C4;">
+                        <ul class="card-social-media">
+                            <li>
+                                <a href="https://www.linkedin.com/in/joseparedes98/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:josw.paredes1998@gmail.com" target="_blank"><i class="far fa-envelope-open"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/josefrancisco.paredesrosa/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/jparedes1998/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=+504 98416129" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9" style="transform: translateY(-230px);">
+                <div class="row justify-content-center">
+                    <div class="col-md-12">
+                        <p class="text-center my-5">
+                            <a href="./util/files/CV_JoseParedes_ING.pdf" class="btn btn-lg btn-outline">DOWNLOAD RESUME</a>
+                        </p>
+
+                        <p style="font-size: 1.15rem;" class="text-center text-muted">
+                            Hi! I'm Jose Paredes, <strong>FullStack Web Developer</strong>, Experienced with Laravel Framework (PHP), Vue,JS, MYSQL Databases and some other technologies for Frontend & Backend web development. I´m 22 years old and I am from Honduras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9" style="transform: translateY(-180px);">
+                <div class="row">
+                    <div class="col-md-12 my-2">
+                        <h3 class="text-primary">Some <strong class="text-primary">Skills</strong></h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8 my-2">
+                        <div class="card card-body shadow rounded">
+
+                            <div class="d-block">
+                                <span class="text-primary m-1" style="font-size: 3.5rem;"><i
+                                        class="fas fa-laptop-code"></i></span>
+
+                                <div class="d-inline-block m-2">
+                                    <h2>Web Apps</h2>
+                                    <h6 class="text-primary">Design & Develop Web Applications</h6>
+                                </div>
+                            </div>
+
+                            <hr class="divider">
+                            <p class="text-justify">Plan, design, develop and deployment of responsive web applications with multiple web development frameworks like Nest.Js, Angular, but mostly experienced with Laravel and Vue.Js.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 my-2">
+                        <div class="card card-body shadow rounded">
+
+                            <div class="d-block">
+                                <span class="text-primary m-1" style="font-size: 3.5rem;"><i
+                                        class="fas fa-mobile-alt"></i></span>
+
+                                <div class="d-inline-block m-2">
+                                    <h2>Apps</h2>
+                                    <h6 class="text-primary">Design & Develop</h6>
+                                </div>
+                            </div>
+
+                            <p class="text-justify">Mobile Hybrid Apps development with Ionic Framework using Vue.Js Schema.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 my-2">
+                        <div class="card card-body shadow rounded">
+
+                            <div class="d-block">
+                                <span class="text-primary m-1" style="font-size: 3rem;"><i
+                                        class="fas fa-paint-brush"></i></span>
+
+                                <div class="d-inline-block ">
+                                    <h2>UI</h2>
+                                    <h6 class="text-primary">Prototype</h6>
+                                </div>
+                            </div>
+
+                            <p class="text-justify">Self-critical design of responsive, intuitive and easy-to-use interfaces, creating prototypes with Figma, Photoshop and Illustrator</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 my-2">
+                        <div class="card card-body shadow rounded">
+
+                            <div class="d-block">
+                                <span class="text-primary m-1" style="font-size: 3rem;"><i
+                                        class="fas fa-user-tag"></i></span>
+
+                                <div class="d-inline-block m-2">
+                                    <h2>User Expirience</h2>
+                                    <h6 class="text-primary">Deployment Follow Up</h6>
+                                </div>
+                            </div>
+
+                            <hr class="divider">
+                            <p class="text-justify">Monitoring the use of the user interface, seeking to optimize the ease of use software.</p>
+                            <p class="text-justify">Self-critical to design and structure the software, orienting it to be enjoyable and exciting to use.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 my-3" style="transform: translateY(-100px);">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr class="divider bg-primary">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 my-2">
+                        <h3 class="text-primary">Some <strong class="text-primary">Testimonials</strong></h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card card-body shadow rounded" style="border-left: 4px solid #19A7C4;">
+                            <div class="row justify-content-around align-items-center">
+                                <div class="col-md-11">
+                                    <div id="testimonial_slider" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+
+                                            <div class="carousel-item active">
+                                                <blockquote>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                        Illum,
+                                                        eveniet quae repellendus dolore autem minus, saepe enim.</p>
+                                                </blockquote>
+
+                                                <hr>
+
+                                                <div class="author">
+                                                    <strong>Jorge Pineda</strong>
+                                                    <p>Happy Days & Freedom</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="carousel-item">
+                                                <blockquote>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                        Illum,
+                                                        eveniet quae repellendus dolore autem minus,
+                                                        saepe enim.</p>
+                                                </blockquote>
+
+                                                <hr>
+
+                                                <div class="author">
+                                                    <strong>Jorge Pineda</strong>
+                                                    <p>Happy Days & Freedom</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <a class="btn btn-block btn-primary mb-3 mr-1" href="#testimonial_slider"
+                                        role="button" data-slide="prev">
+                                        <i class="fa fa-arrow-left"></i>
+                                    </a>
+                                    <a class="btn btn-block btn-primary mb-3 " href="#testimonial_slider" role="button"
+                                        data-slide="next">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact" id="contact" style="Background: #F8F9FA;">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-7">
+                    <h3 class="font-weight-bold text-primary">Get in Touch With Me!</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ea quam laborum, ducimus, laboriosam sint dolorum aspernatur libero</p>
+                    <br>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-body shadow rounded">
+                        <div class="row">
+    
+                            <div class="col-md-12 my-3">
+                                <h3 class="text-primary"><strong class="text-primary">Email</strong> Me!</h3>
+                                <hr class="divider bg-primary ml-0 mr-0">
+                            </div>
+    
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" class="form-control" placeholder="Ex: Jose Paredes">
+                                </div>
+    
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" class="form-control"
+                                        placeholder="Ex: josw.paredes1998@gmail.com">
+                                </div>
+    
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" class="form-control" placeholder="Ex: +504 9841-6129">
+                                </div>
+                            </div>
+    
+                            <div class="col-md-6">
+                                <label for="message">Message</label>
+                                <textarea id="message" class="form-control" placeholder="Type Message Here..."
+                                    style="height: 205px;"></textarea>
+                            </div>
+    
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-outline float-right" value="Send Email">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./util/images/contact.svg" class="img-fluid" style="max-width: 100%;" alt="">
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="overlay"></div>
+        <div class="bg-image"></div>
+
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <h3 class="text-white">Some Links</h3>
+                    <hr class="divider bg-white rounded ml-0 mr-0">
+                    <ul class="list-unstyled m-0 p-0">
+                        <li>
+                            <a class="text-white text-decoration-none" href=""><i class="fas fa-check"></i> Visit My
+                                Blog</a>
+                        </li>
+                        <li>
+                            <a class="text-white text-decoration-none" href=""><i class="fas fa-check"></i> Download
+                                Resume</a>
+                        </li>
+                        <li>
+                            <a class="text-white text-decoration-none" href=""><i class="fas fa-check"></i> Other
+                                link</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+
+                    <h3 class="text-white text-center">Social Media</h3>
+                    <hr class="divider bg-white rounded">
+                    <ul class="footer-social-media">
+                        <li>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="far fa-envelope-open"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h3 class="text-white">Last thing...</h3>
+                    <hr class="divider bg-white rounded ml-0 mr-0">
+                    <p>Thank you for visiting JParedes website.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-9">
+                    <hr>
+                    <p class="text-center text-white m-0 p-0">JParedes - Copyright © 2020 All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./util/js/popper.js"></script>
+    <script src="./util/js/jquery.js"></script>
+    <script src="./util/js/bootstrap.js"></script>
+    <script src="./util/js/aos.js"></script>
+    <script src="https://kit.fontawesome.com/67ee180fdd.js" crossorigin="anonymous"></script>
+    <script src="./util/js/scripts.js"></script>
 </body>
+
 </html>
